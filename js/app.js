@@ -119,7 +119,7 @@ function enviarEmail (e) {
         spinner.style.display = 'none';
         const parrafo = document.createElement('p');
         parrafo.textContent = 'Mensaje enviado correctamente';
-        parrafo.classList.add('text-center','my-10','p-5','bg-green','text-white','font-bold','uppercase');
+        parrafo.classList.add('text-center','my-10','font-bold','uppercase');
         //inserta el parrafo antes del spinner
         formulario.insertBefore(parrafo,spinner);
         //elimina el mesaje de enviado correctamente
